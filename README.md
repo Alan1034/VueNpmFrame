@@ -18,11 +18,21 @@ if warning like [Vue warn]: Invalid VNode type: Symbol("Text") (symbol) appears 
         },
     },
 
-取消链接输入yarn unlink<br/>
-cancel link enter yarn unlink 
+取消链接：yarn unlink<br/>
+cancel link: yarn unlink 
 
-发布npm publish
-publish npm publish
+发布：npm publish<br/>
+publish: npm publish
 
-安装npm i money-sign
-install npm i money-sign
+迭代： npm version [patch,minor,major]，然后 npm publish<br/>
+patch： 修复bug、微小改动，改变版本号第三位<br/>
+minor： 上线新功能，并对当前版本已有功能模块不影响，改变版本号第二位<br/>
+major： 上线多个新功能模块，并对当前版本已有功能有影响，改变版本号第一位<br/>
+iteration: npm version [patch,minor,major], then npm publish<br/>
+patch: fix bugs, make little changes, and change the third digit of the version number. <br/>
+major: new functions will be launched, and the existing function modules of the current version will not be affected. The second digit of the version number will be changed.<br/>
+major: several new function modules will be launched, which will affect the existing functions of current version. The first digit of the version number will be changed.
+
+
+安装：npm i money-sign<br/>
+install: npm i money-sign
