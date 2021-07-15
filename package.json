@@ -42,5 +42,9 @@
     "sass": "^1.32.8",
     "vue": "^3.1.4"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Alan1034/VueNpmFrame.git"
+  },
   "dependencies": {}
 }

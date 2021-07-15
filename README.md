@@ -20,3 +20,9 @@ if warning like [Vue warn]: Invalid VNode type: Symbol("Text") (symbol) appears 
 
 取消链接输入yarn unlink<br/>
 cancel link enter yarn unlink 
+
+发布npm publish
+publish npm publish
+
+安装npm i money-sign
+install npm i money-sign
