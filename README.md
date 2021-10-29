@@ -3,8 +3,8 @@
 一个从零搭建的Vue3纯净框架，用于Npm包 <br/>
 A Vue3 pure frame build up from nothing and use for npm package
 
-以package.json内的name是"money-sign"为例,首先在根目录下输入 yarn link。然后切换到用户项目根目录下输入yarn link "money-sign"，然后启动项目。<br/>
-take the name like "money-sign" in the package.json file as an example, first enter yarn link in the root directory. Then switch to the root directory of the user project, enter yarn link "money-sign" and start the project.
+以package.json内的name是"vue-npm-frame"为例,首先在根目录下输入 yarn link。然后切换到用户项目根目录下输入yarn link "vue-npm-frame"，然后启动项目。<br/>
+take the name like "vue-npm-frame" in the package.json file as an example, first enter yarn link in the root directory. Then switch to the root directory of the user project, enter yarn link "vue-npm-frame" and start the project.
 
 
 如果项目出现警告[Vue warn]: Invalid VNode type: Symbol("Text") (symbol) ，则需要在用户项目webpack中配置：<br/>
@@ -34,5 +34,5 @@ major: new functions will be launched, and the existing function modules of the 
 major: several new function modules will be launched, which will affect the existing functions of current version. The first digit of the version number will be changed.
 
 
-安装：npm i money-sign<br/>
-install: npm i money-sign
+安装：npm i vue-npm-frame<br/>
+install: npm i vue-npm-frame
