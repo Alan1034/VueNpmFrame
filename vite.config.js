@@ -80,6 +80,7 @@ export default defineConfig(({ command, mode }) => {
      * @return {*}
      */
     build: {
+      // https://cn.vitejs.dev/guide/build.html#library-mode
       lib: {
         // Could also be a dictionary or array of multiple entry points
         // 添加打包入口文件夹
