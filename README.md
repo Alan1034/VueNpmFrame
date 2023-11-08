@@ -21,6 +21,9 @@ if warning like [Vue warn]: Invalid VNode type: Symbol("Text") (symbol) appears 
 取消链接：yarn unlink<br/>
 cancel link: yarn unlink 
 
+构建：npm run build<br/>
+build: npm run build
+
 发布：npm publish<br/>
 publish: npm publish
 
