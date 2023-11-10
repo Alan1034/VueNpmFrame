@@ -3,9 +3,12 @@
 一个从零搭建的Vue3纯净框架，用于Npm包 <br/>
 A Vue3 pure frame build up from nothing and use for npm package
 
-以package.json内的name是"vue-npm-frame"为例,首先在根目录下输入 yarn link。然后切换到用户项目根目录下输入yarn link "vue-npm-frame"，然后启动项目。<br/>
-take the name like "vue-npm-frame" in the package.json file as an example, first enter yarn link in the root directory. Then switch to the root directory of the user project, enter yarn link "vue-npm-frame" and start the project.
+以package.json内的name是"vue-npm-frame"为例,首先在根目录下输入 npm run link。
+然后切换到用户项目根目录下输入npm run link "vue-npm-frame"，然后启动项目。<br/>
+take the name like "vue-npm-frame" in the package.json file as an example, first enter npm run link in the root directory. Then switch to the root directory of the user project, enter npm run link "vue-npm-frame" and start the project.
 
+需要安装全局yarn
+require global yarn
 
 如果项目出现警告[Vue warn]: Invalid VNode type: Symbol("Text") (symbol) ，则需要在用户项目webpack中配置：<br/>
 if warning like [Vue warn]: Invalid VNode type: Symbol("Text") (symbol) appears in the project, it needs to be configured in the user project webpack:
@@ -18,8 +21,20 @@ if warning like [Vue warn]: Invalid VNode type: Symbol("Text") (symbol) appears 
         },
     },
 
-取消链接：yarn unlink<br/>
-cancel link: yarn unlink 
+vite:
+     rollupOptions: {
+        // 确保外部化处理那些你不想打包进库的依赖
+        external: ['vue'],
+        output: {
+          // 在 UMD 构建模式下为这些外部化的依赖提供一个全局变量
+          globals: {
+            vue: 'Vue',
+          },
+        },
+      },    
+
+取消链接：npm run unlink<br/>
+cancel link: npm run unlink 
 
 构建：npm run build<br/>
 build: npm run build
