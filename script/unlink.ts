@@ -18,8 +18,8 @@ const updateMain = () => {
   try {
     const packageTxt = fs.readFileSync(path.join(__dirnameNew, '../package.json'), 'utf8');
     const packageJson = JSON.parse(packageTxt);
-    const umdDir = "./dist/index.umd.js"
-    const esDir = "./dist/index.mjs"
+    const umdDir = "./dist/index.umd.cjs"
+    const esDir = "./dist/index.js"
     packageJson.main = umdDir
     packageJson.module = esDir
     packageJson.exports = {
