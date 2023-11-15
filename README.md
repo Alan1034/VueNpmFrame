@@ -36,6 +36,8 @@ vite:
 取消链接：npm run unlink<br/>
 cancel link: npm run unlink 
 
+查看所有全局链接的名称<br/>npm ls --global --depth 0 
+
 构建：npm run build<br/>
 build: npm run build
 
