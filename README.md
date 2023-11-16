@@ -56,3 +56,8 @@ major: several new function modules will be launched, which will affect the exis
 
 安装：npm i vue-npm-frame<br/>
 install: npm i vue-npm-frame
+
+当使用vue样式时需要单独引入<br/>
+import 'vue-npm-frame/style'<br/>
+style need to be import individually when using vue style<br/>
+import 'vue-npm-frame/style'
