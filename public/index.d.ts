@@ -14,4 +14,4 @@ declare module "*.vue" {
   const component: DefineComponent<{}, {}, any>
   export default component
 }
-declare module "general-basic-form";
+declare module "vue-npm-frame";
