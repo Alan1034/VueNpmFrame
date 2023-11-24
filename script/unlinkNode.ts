@@ -1,11 +1,11 @@
 /*
  * @Author: 陈德立*******419287484@qq.com
  * @Date: 2023-11-10 09:39:59
- * @LastEditTime: 2023-11-16 15:12:41
+ * @LastEditTime: 2023-11-24 18:02:34
  * @LastEditors: 陈德立*******419287484@qq.com
  * @Github: https://github.com/Alan1034
  * @Description: unlink处理流程
- * @FilePath: \VueNpmFrame\script\unlink.ts
+ * @FilePath: \vite-plugin-update-version\script\unlinknode.ts
  * 
  */
 import path from "path";
@@ -18,18 +18,20 @@ const updateMain = () => {
   try {
     const packageTxt = fs.readFileSync(path.join(__dirnameNew, '../package.json'), 'utf8');
     const packageJson = JSON.parse(packageTxt);
-    const umdDir = "./dist/index.umd.cjs"
-    const esDir = "./dist/index.js"
+    const umdDir = "./dist/index.umd.js"
+    const esDir = "./dist/index.mjs"
+    const types = "./dist/index.d.ts"
     packageJson.main = umdDir
     packageJson.module = esDir
     packageJson.exports = {
       ".": {
         "import": esDir,
-        "require": umdDir
+        "require": umdDir,
+        "types": types
       },
       "./style": "./dist/style.css"
     }
-    packageJson.typings = "./dist/index.d.ts"
+    packageJson.typings = types
     packageJson.files = [
       "/dist"
     ]
