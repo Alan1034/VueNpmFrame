@@ -21,6 +21,7 @@ const updateMain = () => {
     const umdDir = "./dist/index.umd.cjs"
     const esDir = "./dist/index.js"
     const types = "./dist/index.d.ts"
+    packageJson.type = "module"
     packageJson.main = umdDir
     packageJson.module = esDir
     packageJson.exports = {
