@@ -85,7 +85,7 @@ export default defineConfig(({ command, mode }) => {
         // Could also be a dictionary or array of multiple entry points
         // 添加打包入口文件夹
         entry: resolve(`${__dirnameNew}/src`, 'index.ts'),
-        // formats: ['es', 'cjs', 'umd', 'iife'],
+        formats: ['es', 'cjs', 'umd', 'iife'],
         name: 'Index',
         // the proper extensions will be added
         // fileName: (format) => `index.${format}.js`,
