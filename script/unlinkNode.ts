@@ -1,7 +1,7 @@
 /*
  * @Author: 陈德立*******419287484@qq.com
  * @Date: 2023-11-10 09:39:59
- * @LastEditTime: 2023-11-25 23:52:48
+ * @LastEditTime: 2023-11-25 23:55:20
  * @LastEditors: 陈德立*******419287484@qq.com
  * @Github: https://github.com/Alan1034
  * @Description: unlink处理流程
@@ -22,7 +22,7 @@ const updateMain = () => {
     const esDir = "./dist/index.mjs"
     const umd = "./dist/index.umd.js"
     const types = "./dist/index.d.ts"
-  
+    delete packageJson.type
     packageJson.main = cjsDir
     packageJson.module = esDir
     packageJson.exports = {
