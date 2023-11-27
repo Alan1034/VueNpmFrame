@@ -10,10 +10,11 @@
     "build-only": "vite build",
     "type-check": "tsc --noEmit -p tsconfig.json --composite false",
     "link": "tsx script/link.ts && yarn link",
-    "unlinkModule": "tsx script/unlinkModule.ts",
-    "unlinkNode": "tsx script/unlinkNode.ts",
-    "unlink": "unlinkModule && yarn unlink && run-p build",
-    "unlink:node": "unlinkNode && yarn unlink && run-p build"
+    "unlink": "tsx script/unlinkModule.ts && yarn unlink && run-p build",
+    "linkNode": "tsx script/linkNode.ts && yarn link && run-p dev",
+    "unlinkNode": "tsx script/unlinkNode.ts && yarn unlink && run-p buildts",
+    "dev": "tsc -w -p .",
+    "buildts": "rimraf dist && tsc -p ."
   },
   "keywords": [
     "frame",
