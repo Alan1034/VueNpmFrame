@@ -22,7 +22,7 @@
     "npm"
   ],
   "author": "chendeli419287484@qq.com",
-  "license": "ISC",
+  "license": "MPL",
   "devDependencies": {
     "@playwright/test": "^1.36.1",
     "@types/node": "^20.8.10",
