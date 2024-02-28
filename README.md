@@ -61,3 +61,6 @@ install: npm i vue-npm-frame
 import 'vue-npm-frame/style'<br/>
 style need to be import individually when using vue style<br/>
 import 'vue-npm-frame/style'
+
+改变package.json内的name后请更新index.d.ts文件内的声明
+after changing name in package.json, please update declare in file index.d.ts
