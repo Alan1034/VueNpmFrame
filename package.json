@@ -1,6 +1,6 @@
 {
   "name": "vue-npm-frame",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "description": "",
   "main": "./dist/index.umd.cjs",
   "type": "module",
