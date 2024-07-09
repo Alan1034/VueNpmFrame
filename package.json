@@ -42,6 +42,9 @@
     "type": "git",
     "url": "git+https://github.com/Alan1034/VueNpmFrame.git"
   },
+  "peerDependencies": {
+    "vue": "^2.7.0-0"
+  },
   "typings": "./dist/index.d.ts",
   "module": "./dist/index.js",
   "exports": {
