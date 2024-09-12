@@ -25,17 +25,18 @@
   "license": "MPL",
   "devDependencies": {
     "@playwright/test": "^1.36.1",
-    "@types/node": "^20.8.10",
+    "@types/node": "^22.5.2",
     "@vitejs/plugin-legacy": "^5.4.2",
-    "@vitejs/plugin-vue": "^4.2.3",
-    "@vitejs/plugin-vue-jsx": "^3.0.1",
+    "@vitejs/plugin-vue": "^5.1.3",
+    "@vitejs/plugin-vue-jsx": "^4.0.1",
+    "chalk": "^5.3.0",
     "cross-env": "^7.0.3",
     "less": "^4.2.0",
-    "chalk": "^2.4.2",
     "npm-run-all": "^4.1.5",
-    "rimraf": "^5.0.5",
+    "rimraf": "^6.0.1",
     "tsx": "^4.0.0",
     "typescript": "^5.2.2",
+    "vite": "^5.4.2",
     "vite-plugin-image-optimizer": "^1.1.6"
   },
   "repository": {
