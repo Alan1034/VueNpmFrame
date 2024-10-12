@@ -39,18 +39,6 @@
     "vite": "^5.4.2",
     "vite-plugin-image-optimizer": "^1.1.6"
   },
-  "peerDependencies": {
-    "@vue/composition-api": "^1.0.0-rc.1",
-    "vue": "^2.0.0 || >=3.0.0"
-  },
-  "peerDependenciesMeta": {
-    "@vue/composition-api": {
-      "optional": true
-    }
-  },
-  "dependencies": {
-    "vue-demi": "latest"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Alan1034/VueNpmFrame.git"

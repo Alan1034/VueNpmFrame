@@ -33,9 +33,7 @@ export default defineConfig(({ command, mode }) => {
 
       extensions: ['.mjs', '.js', '.ts', '.jsx', '.tsx', '.json', '.vue'],
     },
-    optimizeDeps: {
-      exclude: ['vue-demi']
-    },
+
     plugins: [
       /**
        * @description: 图片压缩插件
