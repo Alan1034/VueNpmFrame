@@ -4,6 +4,7 @@ import { defineConfig, loadEnv } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import vueJsx from '@vitejs/plugin-vue-jsx'
 import { ViteImageOptimizer } from 'vite-plugin-image-optimizer';
+// import obfuscatorPlugin from "vite-plugin-javascript-obfuscator";
 import path from 'path';
 const __filenameNew = fileURLToPath(import.meta.url)
 const __dirnameNew = path.dirname(__filenameNew)
@@ -56,6 +57,24 @@ export default defineConfig(({ command, mode }) => {
         }),
         apply: 'build',
       },
+      /**
+      * @description: 代码压缩加密
+      * @return {*}
+      */
+      // obfuscatorPlugin({
+      //   include: [
+      //     "src/indexDB/**",
+      //   ],
+      //   apply: "build",
+      //   // debugger: true,
+      //   options: {
+      //     // your javascript-obfuscator options
+      //     debugProtection: true,
+      //     renameGlobals: true,
+      //     transformObjectKeys: true
+      //     // ...  [See more options](https://github.com/javascript-obfuscator/javascript-obfuscator)
+      //   },
+      // }),
       vue(),
       vueJsx(),
     ],
