@@ -26,9 +26,9 @@ const updateMain = () => {
     packageJson.module = esDir
     packageJson.exports = {
       ".": {
+        "types": types,
         "import": esDir,
         "require": umdDir,
-        "types": types
       },
       "./style": "./dist/style.css"
     }
