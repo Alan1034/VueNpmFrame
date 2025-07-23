@@ -24,21 +24,21 @@
   "author": "chendeli419287484@qq.com",
   "license": "MPL",
   "devDependencies": {
-    "@playwright/test": "^1.36.1",
-    "@types/node": "^22.5.2",
-    "@vitejs/plugin-legacy": "^5.4.2",
-    "@vitejs/plugin-vue2": "^2.3.1",
+    "@playwright/test": "^1.54.1",
+    "@types/node": "^24.1.0",
+    "@vitejs/plugin-legacy": "^7.1.0",
+    "@vitejs/plugin-vue2": "^2.3.3",
     "@vitejs/plugin-vue2-jsx": "^1.1.1",
-    "chalk": "^5.3.0",
+    "chalk": "^5.4.1",
     "cross-env": "^7.0.3",
-    "less": "^4.2.0",
+    "less": "^4.4.0",
     "npm-run-all": "^4.1.5",
     "rimraf": "^6.0.1",
-    "sass-embedded": "^1.80.6",
-    "tsx": "^4.0.0",
-    "typescript": "^5.2.2",
-    "vite": "^5.4.8",
-    "vite-plugin-image-optimizer": "^1.1.6"
+    "sass-embedded": "^1.89.2",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3",
+    "vite": "^6.3.5",
+    "vite-plugin-image-optimizer": "^2.0.2"
   },
   "repository": {
     "type": "git",
@@ -51,6 +51,7 @@
   "module": "./dist/index.js",
   "exports": {
     ".": {
+      "types": "./dist/index.d.ts",
       "import": "./dist/index.js",
       "require": "./dist/index.umd.cjs"
     },
