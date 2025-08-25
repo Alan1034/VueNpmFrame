@@ -1,11 +1,11 @@
 /*
  * @Author: 陈德立*******419287484@qq.com
  * @Date: 2023-11-10 09:39:59
- * @LastEditTime: 2023-11-25 23:52:27
+ * @LastEditTime: 2025-08-25 19:27:02
  * @LastEditors: 陈德立*******419287484@qq.com
  * @Github: https://github.com/Alan1034
  * @Description: unlink处理流程
- * @FilePath: \vite-plugin-update-version\script\unlinkModule.ts
+ * @FilePath: \VueNpmFrame\script\unlinkModule.ts
  * 
  */
 import path from "path";
@@ -30,7 +30,7 @@ const updateMain = () => {
         "import": esDir,
         "require": umdDir,
       },
-      "./style": "./dist/style.css"
+      "./style": "./dist/index.css",
     }
     packageJson.typings = types
     packageJson.files = [
