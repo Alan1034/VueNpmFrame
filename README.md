@@ -1,7 +1,7 @@
-# NpmFrame
+# VueNpmFrame
 
-一个从零搭建的Vue3，Vue2，React纯净框架，用于Npm包 <br/>
-A Vue3, Vue2, React pure frame build up from nothing and use for npm package
+一个从零搭建的Vue3，Vue2纯净框架，用于Npm包 <br/>
+A Vue3, Vue2 pure frame build up from nothing and use for npm package
 
 Vue2的支持在Vue2分支
 support for Vue2 on branch Vue2
