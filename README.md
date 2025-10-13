@@ -6,6 +6,9 @@ A Vue3, Vue2 pure frame build up from nothing and use for npm package
 Vue2的支持在Vue2分支
 support for Vue2 on branch Vue2
 
+React的支持在React分支
+support for React on branch React
+
 以package.json内的name是"vue-npm-frame"为例,首先在根目录下输入 npm run link。
 然后切换到用户项目根目录下输入npm run link "vue-npm-frame"，然后启动项目。<br/>
 take the name like "vue-npm-frame" in the package.json file as an example, first enter npm run link in the root directory. Then switch to the root directory of the user project, enter npm run link "vue-npm-frame" and start the project.
