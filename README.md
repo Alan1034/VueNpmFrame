@@ -1,10 +1,13 @@
-# VueNpmFrame
+# NpmFrame
 
-一个从零搭建的Vue3，Vue2纯净框架，用于Npm包 <br/>
-A Vue3, Vue2 pure frame build up from nothing and use for npm package
+一个从零搭建的Vue3，Vue2，React纯净框架，用于Npm包 <br/>
+A Vue3, Vue2, React pure frame build up from nothing and use for npm package
 
 Vue2的支持在Vue2分支
 support for Vue2 on branch Vue2
+
+React的支持在React分支
+support for React on branch React
 
 以package.json内的name是"vue-npm-frame"为例,首先在根目录下输入 npm run link。
 然后切换到用户项目根目录下输入npm run link "vue-npm-frame"，然后启动项目。<br/>
